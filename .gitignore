@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Sapper
+__sapper__/
+yarn.lock
