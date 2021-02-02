@@ -12,8 +12,6 @@
   <slot />
 </main>
 
-<h1>ss</h1>
-
 <style>
   main {
     position: relative;
