@@ -3,9 +3,11 @@
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
-    "dev": "sapper dev",
+    "dev": "NODE_ENV=development lsapper dev",
     "build": "NODE_ENV=production sapper build --legacy",
-    "export": "sapper export --legacy",
+    "build:dev": "NODE_ENV=development sapper build --legacy",
+    "export": "NODE_ENV=production sapper export",
+    "export:legacy": "NODE_ENV=production sapper export --legacy",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
